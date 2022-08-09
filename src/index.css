@@ -1,13 +1,142 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+.header {
+  background-color: #f5ba13;
+  font-family: "McLaren", cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header h2 {
+  font-size: 2rem;
+  color: white;
+  padding: 2rem;
+}
+
+.noteboxMain {
+  font-family: "Source Sans Pro", sans-serif;
+  min-height: 80vh;
+  width: 100vw;
+  background-color: #d3cfc3;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainInputBox{
+  display: flex;
+  justify-content: center;
+
+}
+
+.inputBox{
+  margin-top: 3rem;
+  height: rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  
+}
+
+.inputBox :nth-child(1){
+  border : none;
+  border-bottom: 1px solid black;
+  height: 2rem;
+  outline: none;
+}
+.inputBox :nth-child(2){
+  height: 6rem;
+  resize: none;
+  border:none;
+  outline: none;
+}
+
+.btnFlex{
+  /* margin-top:-1rem;
+  margin-left:38rem; */
+}
+.btnFlex button{
+  height: 2.5rem;
+  width:  2.5rem;
+  resize: none;
+  border:none;
+  border-width: 0px;
+  border-radius: 50% ;
+  background-color: #f5ba13;
+  /* display: absolute; */
+  
+}
+
+.notebox {
+  display: inline-block;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  background-color: azure;
+  border-radius: 10px;
+}
+
+.notebox * {
+  margin: 2px;
+}
+
+.deleteNote{
+  position: absolute;
+  right: -10px;
+  top:-10px;
+  height: 30px;
+  width: 30px;
+  font-weight: bold;
+  background-color: red;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+}
+
+.notesOuterMainBox{
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+
+.notesContainer{
+  width: 70%;
+  background-color: #f5ba13;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.noteDiv{
+  position: relative;
+  background-color: azure;
+  display: inline-block;
+  margin: 20px;
+  width: 90%;
+  padding: 10px;
+}
+
+
+.footer {
+  font-family: "McLaren", cursive;
+  background-color: #d3cfc3;
+  padding: 1rem;
+  top: 90vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.336);
+  z-index: 1;
+}
+
+.main {
+  background-color: #d3cfc3;
+  min-height: 100vh;
 }
