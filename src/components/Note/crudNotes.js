@@ -90,13 +90,6 @@ function pinNote(e,NotesArray, pinnedNotesArray ,updatePinnedArray){
 
 }
 
-function editFunction(e ,obj , NotesArray , pinnedNotesArray , refForPopup ){
-
-    refForPopup.current.style.display = 'block';
-
-    console.log((obj));
 
 
-}
-
-export {deleteNote,addNote,changedNoteInput,getFromLocalStorage,pinNote,compare,editFunction}
+export {deleteNote,addNote,changedNoteInput,getFromLocalStorage,pinNote,compare}

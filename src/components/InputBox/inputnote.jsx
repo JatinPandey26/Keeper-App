@@ -5,8 +5,7 @@ import './inputnote.css'
 import { addNote, deleteNote, changedNoteInput, getFromLocalStorage, pinNote , compare } from '../Note/crudNotes'
 import Paginate from "../Paginate/paginate";
 import _ from 'lodash';
-import Popup from "../Popup/Popup";
-import { editFunction } from "../Note/crudNotes";
+
 import { useRef } from "react";
 
 function InputNote(props) {
