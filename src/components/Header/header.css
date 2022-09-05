@@ -1,0 +1,11 @@
+.header {
+    background-color: #f5ba13;
+    font-family: "McLaren", cursive;
+  }
+  
+  .header h2 {
+    font-size: 2rem;
+    color: white;
+    padding: 2rem;
+  }
+  

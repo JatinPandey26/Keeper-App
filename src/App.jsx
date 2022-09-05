@@ -1,7 +1,7 @@
-import Navbar from './header';
-import { InputNote } from './inputnote';
-import Footer from './footer';
-
+import Navbar from './components/Header/header';
+import { InputNote } from './components/InputBox/inputnote';
+import Footer from './components/Footer/footer';
+import './App.css'
 
 
 

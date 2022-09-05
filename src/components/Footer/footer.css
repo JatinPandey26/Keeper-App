@@ -1,0 +1,11 @@
+.footer {
+    font-family: "McLaren", cursive;
+    background-color: #d3cfc3;
+    padding: 1rem;
+    top: 90vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.336);
+    z-index: 1;
+  }
